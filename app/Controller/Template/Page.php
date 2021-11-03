@@ -24,13 +24,20 @@ class Page
     }
 
     /** 
-     * Método responsavel por retornar pagina template
+     * Método responsavel por retornar pagina checkout
      */
     public static function getCheckout()
     {
         return View::render('checkout/checkout');
     }
 
+    /** 
+     * Método responsavel por retornar pagina cozinha
+     */
+    public static function getCozinha()
+    {
+        return View::render('cozinha/cozinha');
+    }
 
     /** 
      * Método responsavel por retornar pagina template
@@ -39,7 +46,8 @@ class Page
     {
         return View::render('template/page',[
             'header'    => self::getHeader(),
-            'checkout'  => self::getCheckout(),
+            'cozinha'  => self::getCozinha(),
+            'checkout' => self::getCheckout(),
             'footer'    => self::getFooter()
         ]);
     }

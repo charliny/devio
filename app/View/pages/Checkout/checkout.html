@@ -1,9 +1,10 @@
+<script type="text/javascript" src="/app/View/pages/Checkout/checkout.js"></script>
 <div class="container">
-
     <section id="cart"> 
+        <h1>Checkout</h1>
         <article class="product">
             <header>
-                <a class="remove">
+                <a class="remove" id="remove">
                     <img src="/app/resources/assets/img/x-salada.jpg" alt="x-salada">
                 </a>
             </header>
@@ -31,7 +32,7 @@
         <article class="product">
             <header>
                 <a class="remove">
-                    <img src="/app/resources/assets/img/x-bacon.jpg" alt="">
+                    <img src="/app/resources/assets/img/x-bacon.jpg" alt="x-bacon">
                 </a>
             </header>
 
@@ -59,7 +60,7 @@
         <article class="product">
             <header>
                 <a class="remove">
-                    <img src="/app/resources/assets/img/x-frango.jpg" alt="">
+                    <img src="/app/resources/assets/img/x-frango.jpg" alt="x-frango">
                 </a>
             </header>
 
@@ -90,49 +91,47 @@
 
 <footer id="site-footer">
     <div class="container clearfix">
+            <div class="left">  
 
-        <div class="left">  
-
-            <div class="mb-3">
-                <label class="form-label">Seu Nome</label>
-                <input type="text" class="form-control" id="nome" placeholder="digite seu nome">
-            </div>
-
-            <div class="mb-3">
-                <label>Forma de Pagamento</label>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      Dinheiro
-                    </label>
+                <div class="mb-3">
+                    <label class="form-label">Seu Nome</label>
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="digite seu nome">
                 </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      Cartão
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      Pix
-                    </label>
+    
+                <div class="mb-3">
+                    <label>Forma de Pagamento</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Dinheiro
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Cartão
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        Pix
+                        </label>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="center">
-            <div class="mb-3">
-                <label class="form-label">Observação</label>
-                <textarea class="form-control" id="observacao" rows="3"></textarea>
+    
+            <div class="center">
+                <div class="mb-3">
+                    <label class="form-label">Observação</label>
+                    <textarea class="form-control" id="observacao" rows="3"></textarea>
+                </div>
+                
             </div>
-            
-        </div>
-
-        <div class="right">
-            <h1 class="total">Total: <span>0</span>$</h1>
-            <a class="btn btn-danger">Checkout</a>
-        </div>
-
+    
+            <div class="right">
+                <h1 class="total">Total: <span>0</span>$</h1>
+                <button type="submit" class="btn btn-danger" >Checkout</button>
+            </div>
     </div>
 </footer>
