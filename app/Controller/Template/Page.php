@@ -23,31 +23,17 @@ class Page
         return View::render('template/footer');
     }
 
-    /** 
-     * Método responsavel por retornar pagina checkout
-     */
-    public static function getCheckout()
-    {
-        return View::render('checkout/checkout');
-    }
-
-    /** 
-     * Método responsavel por retornar pagina cozinha
-     */
-    public static function getCozinha()
-    {
-        return View::render('cozinha/cozinha');
-    }
 
     /** 
      * Método responsavel por retornar pagina template
+     * @return string
      */
-    public static function getPage()
+    public static function getPage($title, $content)
     {
-        return View::render('template/page',[
-            'header'    => self::getHeader(),
-            'cozinha'  => self::getCozinha(),
-            'checkout' => self::getCheckout(),
+        $content = View::render('template/page',[
+            'title'     => $title,
+            'header'    =>self::getHeader(),
+            'content'   => $content,
             'footer'    => self::getFooter()
         ]);
     }

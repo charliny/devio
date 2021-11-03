@@ -2,6 +2,6 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use App\Controller\Template\Page;
+use App\Controller\Checkout\Checkout;
 
-echo Page::getPage();
+echo Checkout::getCheckout();
