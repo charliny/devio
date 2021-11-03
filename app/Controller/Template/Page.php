@@ -26,10 +26,20 @@ class Page
     /** 
      * Método responsavel por retornar pagina template
      */
+    public static function getCheckout()
+    {
+        return View::render('checkout/checkout');
+    }
+
+
+    /** 
+     * Método responsavel por retornar pagina template
+     */
     public static function getPage()
     {
         return View::render('template/page',[
             'header'    => self::getHeader(),
+            'checkout'  => self::getCheckout(),
             'footer'    => self::getFooter()
         ]);
     }
