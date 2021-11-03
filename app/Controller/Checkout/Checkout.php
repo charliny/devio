@@ -2,14 +2,19 @@
 
 namespace App\Controller\Checkout;
 
-use App\Controller\Template\Page;
 use App\Utils\View;
+use App\Controller\Template\Page;
 
 class Checkout extends Page
 {
+    /**
+     * Método responsavel por renderizar a pagina de checkout
+     * @return string
+     */
     public static function getCheckout()
     {
         $content =  View::render('checkout/checkout');
-        return parent::getPage('Burguer Foods', $content);
+
+        return parent::getPage($content);
     }
 }

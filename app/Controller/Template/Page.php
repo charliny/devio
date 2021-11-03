@@ -23,17 +23,23 @@ class Page
         return View::render('template/footer');
     }
 
+    /** 
+     * Método responsavel por retornar pagina checkout
+     */
+    public static function getCheckout()
+    {
+        return View::render('checkout/checkout');
+    }
+
 
     /** 
      * Método responsavel por retornar pagina template
-     * @return string
      */
-    public static function getPage($title, $content)
+    public static function getPage($content)
     {
-        $content = View::render('template/page',[
-            'title'     => $title,
-            'header'    =>self::getHeader(),
-            'content'   => $content,
+        return View::render('template/page',[
+            'header'    => self::getHeader(),
+            'content' => $content,
             'footer'    => self::getFooter()
         ]);
     }
