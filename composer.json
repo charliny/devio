@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "deviofoods/devio",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Sistema de checkout",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
