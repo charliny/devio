@@ -173,7 +173,7 @@ a:hover {
 	-moz-box-sizing: border-box;
 	height: 140px;
 	padding: 0 20px;
-	width: 50%;
+	width: 75%;
 }
 
 .product h1 {
@@ -301,7 +301,7 @@ a:hover {
 	float: right;
 }
 
-.btn {
+/* .btn {
 	background: #EA1D2C;
 	border: 1px solid #EA1D2C;
 	border-style: none none solid none;
@@ -312,12 +312,12 @@ a:hover {
 	font-weight: 300;
 	padding: 16px 0;
 	width: 290px;
-}
+} */
 
-.btn:hover {
-	/* color: #fff; */
+/* .btn:hover {
+	color: #fff;
 	background: rgb(201, 197, 197);
-}
+} */
 
 .type {
 	background: #fcfcfc;

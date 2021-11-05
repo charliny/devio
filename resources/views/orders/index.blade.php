@@ -3,18 +3,17 @@
 @section('content')
 <div class="container">
 
-    <h1>Pedidos</h1>
+    <h3>Pedidos em Abertos</h3>
 
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>#id</th>
-                <th>#Nome do Cliente</th>
-                <th>#Observaçao</th>
+                <th>id</th>
+                <th>Cliente</th>
+                <th>Observaçao</th>
                 <th>Total</th>
                 <th>Data de criação</th>
-                <th>Detalhes</th>
-                <th>Conclusão</th>
+                <th></th>
             </tr>
         </thead>
 
@@ -32,7 +31,7 @@
                     <form action="{{ route('orders.destroy', [$order->id]) }}" method="post">
                         @csrf
                         @method('delete')
-                        <input type="submit" class="btn btn-sm btn-danger"  value="Remover">
+                        <input type="submit" class="btn btn-sm btn-danger"  value="Finalizar">
                     </form>
                 </td>
                 <td>{{ $order->concluded }}</td>

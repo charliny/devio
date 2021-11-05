@@ -13,7 +13,6 @@
                 <th>#Observaçao</th>
                 <th>Total</th>
                 <th>Data de criação</th>
-                <th>Detalhes</th>
             </tr>
         </thead>
 
@@ -31,10 +30,6 @@
                     <form action="{{ route('orders.update', [$order->id]) }}" method="post">
                     @csrf
                     @method('put')
-                    <!--<input type="submit" 
-                    class="form-control btn btn-sm btn-success mt-2 mb-3" nome="concluded" id="concluded"
-                    value="Concluido"
-                    /> -->
                     </form>
                 </td>
             </tr>
