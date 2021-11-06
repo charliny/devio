@@ -22,6 +22,9 @@
 - Execute __php artisan migrate__
 - Execute __php artisan serve__
 
-### Tela de Checkout
+### Telas
 
-![alt text](https://github.com/charliny/foods/checkout.jpg?raw=true)
+![pedidos_abertos](https://user-images.githubusercontent.com/59016759/140598070-dcc39a28-ed9b-4d96-8538-a97413e2504b.PNG)
+![checkout](https://user-images.githubusercontent.com/59016759/140598057-b9d1491a-a1c3-43e6-972d-9eb434fa8b16.PNG)
+![cadastro](https://user-images.githubusercontent.com/59016759/140598064-7eda14e9-898c-488e-86aa-98877f15751d.PNG)
+![concluidos](https://user-images.githubusercontent.com/59016759/140598078-d5a299a1-e82e-4d7f-95fd-97825c5e6448.PNG)
