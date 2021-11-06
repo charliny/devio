@@ -1,4 +1,4 @@
-# Teste – Devio Foods
+# Devio Foods
 
 ## Caso de Uso
 
@@ -24,6 +24,4 @@
 
 ### Tela de Checkout
 
-![Screenshot](https://github.com/charliny/foods/checkout.png)
-
-![alt text](https://github.com/charliny/foods/checkout.png)
+![bg](https://github.com/charliny/foods/checkout.png)
