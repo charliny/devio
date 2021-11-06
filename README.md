@@ -25,3 +25,4 @@
 ### Tela de Checkout
 
 ![Screenshot](cadastro.png)
+![Screenshot](https://github.com/charliny/foods/checkout.png)
