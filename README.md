@@ -26,4 +26,4 @@
 
 ![Screenshot](https://github.com/charliny/foods/checkout.png)
 
-![alt text](https://github.com/charliny/foods/checkout.pn)
+![alt text](https://github.com/charliny/foods/checkout.png)
