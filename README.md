@@ -24,4 +24,4 @@
 
 ### Tela de Checkout
 
-![bg](https://github.com/charliny/foods/checkout.png)
+![alt text](https://github.com/charliny/foods/checkout.jpg?raw=true)
