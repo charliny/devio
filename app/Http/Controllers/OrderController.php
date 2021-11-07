@@ -38,7 +38,7 @@ class OrderController extends Controller
         ]);
     }
 
-    /** Get the product via Ajax */
+    /** Get the productm*/
     public function addItem($id) {
 
         $product = Product::find($id);
@@ -91,35 +91,12 @@ class OrderController extends Controller
         }
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Order  $order
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Order $order)
-    {
-        //
-    }
-
     public function concluded(Order $order)
     {
         $orders = Order::all();
         return view('orders.concluded', [
             'orders' => $orders
         ]);
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Order  $order
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Order $order)
-    {
-        //
     }
 
     /**
