@@ -34,6 +34,7 @@
                         <a class="dropdown-item" href="{{ route('orders.index') }}">Pedidos em aberto</a>
                         <a class="dropdown-item" href="{{route('orders.concluded')}}">Pedidos concluídos</a>
                         <a class="dropdown-item" href="{{route('products.create')}}">Cadastrar Produtos</a>
+                        <a class="dropdown-item" href="{{route('products.index')}}">Produtos em Estoque</a>
                     </div>
                 </li>
             </ul>
