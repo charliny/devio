@@ -11,6 +11,7 @@
 ## Tecnologias usadas
 - PHP 7.3
 - Laravel 8
+- jQuery
 - Bootstrap
 
 ### Como usar:
