@@ -1,4 +1,4 @@
-# Teste Devio - Burguer Foods
+# Burguer Foods
 
 ## Caso de Uso
 
